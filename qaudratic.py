@@ -11,8 +11,8 @@ d = (b**2) - (4*a*c)
 x1 = (-b-cmath.sqrt(d))/(2*a)
 x2 = (-b+cmath.sqrt(d))/(2*a)
 print(d)
-print(x1)
-print(x2)
+print("X1 :",x1)
+print("X2 :",x2)
 
 
 
