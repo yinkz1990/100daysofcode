@@ -1,6 +1,6 @@
 import random
 n= ['Mtn','Glo','Airtel','Etisalat']
-network = int(input("Choose a network a network provide, 1 for Mtn, 2 for Glo, 3 for Airtel, 4 for Etislat"))
+network = int(input("Choose a network provider, 1 for Mtn, 2 for Glo, 3 for Airtel, 4 for Etislat"))
 
 if (network == 0):
     print("Welcome to Mtn service provider")
