@@ -15,6 +15,7 @@ number= a_array + b_array
 max_number=max(number)
 l=sorted(number, reverse=True)
 k=sorted(number, reverse=False)
+i=[a_array + b_array for a_array,b_array in zip(a_array,b_array)]
 
 print("This is a",a_array)
 print("This is b",b_array)
@@ -29,3 +30,4 @@ print("The maximum value of c array =",max_c)
 print("the maximun number for the combine array is",max_number)
 print("The combined array a and b in descending order is :", l)
 print("The combined array a and b in ascending order is :", k)
+print(i)
