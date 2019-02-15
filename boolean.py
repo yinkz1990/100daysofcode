@@ -6,12 +6,15 @@ for i in foods:
 
 def searchfoods():
     for food in foods:
-        pick_food=input("choose a food from the available list:")
+        pick_food=input("choose a food from the available list:").title()
         if pick_food in foods:
-            return found
-            
+            found = True
+            print(found)
+            print("You can place your order now ")
+    
         else:
-            return not found
+            found = False
+            print(found)
+            print("Your food is not on our menu list")
 print("Search :", searchfoods())
-print("You can place your order now ")
 
